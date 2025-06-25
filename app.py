@@ -17,7 +17,7 @@ logging.basicConfig(
 
 # API Configuration - using environment variables for security
 URL = "https://api.hyperbolic.xyz/v1/chat/completions"
-API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYWlzd2FyYWthc2gwNEBnbWFpbC5jb20iLCJpYXQiOjE3NTA0OTQzMzN9.Tvor75KJXlXVmeaVHMU366HxO5MCCkOAgcC2go8FNpU"
+API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmlrZXRqYWlzd2FyNDNAZ21haWwuY29tIiwiaWF0IjoxNzUwODc1NDQ4fQ.6KWMtQBb02G28JiSbmmu2a1OH4tYQUA0WtwhBPC24B8"
 
 if not API_KEY:
     logging.error("HYPERBOLIC_API_KEY environment variable not set!")
